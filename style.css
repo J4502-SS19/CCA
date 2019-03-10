@@ -53,9 +53,9 @@ body{
 }
 #footer {
   color: #c2c2c2;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Roboto, serif;
   font: 0.8em;
-  border-top: 1px solid black;
+  border-top:;
 }
 img{
   border: none;

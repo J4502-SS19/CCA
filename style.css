@@ -52,7 +52,8 @@ body{
   text-align: right;
 }
 #footer {
-  color: #c2c2c2;
+  color: #black;
+  background-color: #c2c2c2;
   font-family: Roboto, serif;
   font: 0.8em;
   border-top:;

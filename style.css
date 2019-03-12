@@ -43,7 +43,7 @@ body{
   display:block;
   font-weight: bold;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   color:black;
   background-color: white;
   padding: 4px;
@@ -54,6 +54,7 @@ body{
 #nav a:hover, #nav a:active {
   background-color: white;
   border-bottom: 1px double red;
+  text-decoration: underline;
 }
 .caption {
   font-family: Georgia, "Times New Roman", serif;
@@ -64,8 +65,8 @@ body{
   text-align: right;
 }
 #footer {
-  color: #c0c0c0;
-  background-color: #000;
+  color: #000;
+  background-color: #C0C0C0;
   font-family: Roboto, serif;
   font: 0.8em;
   border-top:;

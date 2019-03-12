@@ -50,7 +50,7 @@ body{
 }
 
 #nav a:hover, #nav a:active {
-  background-color: #7a991a;
+  background-color: red;
 }
 .caption {
   font-family: Georgia, "Times New Roman", serif;

@@ -37,23 +37,22 @@ body{
 #nav li {
   margin:0;
   padding:0;
-  border-bottom: 1px solid #ccc
+  border-bottom: 1px solid #ccc;
 }
 #nav a:link, #nav a:visited {
   display:block;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  color:black;
-  background-color: #fff;
+  color:#fff;
+  background-color: #98bf21;
   padding: 4px;
   font-family: Helvetica, Arial, sans-serif;
   border-bottom: 1px double black;
 }
 
 #nav a:hover, #nav a:active {
-  border-bottom: 1px double red;
-
+  background-color: #7a991a;
 }
 .caption {
   font-family: Georgia, "Times New Roman", serif;

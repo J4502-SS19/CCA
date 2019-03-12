@@ -80,9 +80,11 @@ img{
     flex-direction: row;
     justify-content: flex-end;
   }
-@media (min-width: 800px) {
   #Logo {
-    margin-right: auto;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+  
 
   }
 }

@@ -36,7 +36,7 @@ body{
 #nav li {
   margin:0;
   padding:0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc
 }
 #nav a:link, #nav a:visited {
   display:block;
@@ -50,7 +50,7 @@ body{
 }
 
 #nav a:hover, #nav a:active {
-  background-color: #7a991a;
+  background-color: red;
 }
 .caption {
   font-family: Georgia, "Times New Roman", serif;
@@ -61,11 +61,12 @@ body{
   text-align: right;
 }
 #footer {
-  color: #black;
-  background-color: #c2c2c2;
+  color: #c0c0c0;
+  background-color: #000;
   font-family: Roboto, serif;
   font: 0.8em;
   border-top:;
+  text-align: center;
 }
 img{
   border: none;

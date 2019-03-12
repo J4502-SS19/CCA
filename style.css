@@ -37,13 +37,13 @@ body{
 #nav li {
   margin:0;
   padding:0;
-  border-bottom: 1px double #ccc;
+  border-bottom: 1px solid #ccc;
 }
 #nav a:link, #nav a:visited {
   display:block;
   font-weight: bold;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   color:black;
   background-color: white;
   padding: 4px;
@@ -54,6 +54,7 @@ body{
 #nav a:hover, #nav a:active {
   background-color: white;
   border-bottom: 1px double red;
+  text-decoration: underline;
 }
 .caption {
   font-family: Georgia, "Times New Roman", serif;
@@ -80,9 +81,11 @@ img{
     flex-direction: row;
     justify-content: flex-end;
   }
-@media (min-width: 800px) {
   #Logo {
-    margin-right: auto;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+
 
   }
 }

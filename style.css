@@ -10,6 +10,12 @@ h1{
 body{
   background-color: #FFFFFF;
 }
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+</style>
 #container {
   background-color: #ffffff;
   width: 80%;
@@ -23,6 +29,9 @@ body{
 #nav {
   padding: 0;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+
 }
 #nav li {
   margin:0;
@@ -61,4 +70,11 @@ body{
 }
 img{
   border: none;
+}
+
+@media (min-width: 600px) {
+  #nav {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }

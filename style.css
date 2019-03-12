@@ -47,6 +47,7 @@ body{
   background-color: #98bf21;
   padding: 4px;
   font-family: Helvetica, Arial, sans-serif;
+  border-bottom: 1px double black;
 }
 
 #nav a:hover, #nav a:active {

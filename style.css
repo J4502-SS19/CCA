@@ -52,7 +52,7 @@ body{
 }
 
 #nav a:hover, #nav a:active {
-  background-color: red;
+  background-color: white;
   border-bottom: 1px double red;
 }
 .caption {

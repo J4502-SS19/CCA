@@ -33,6 +33,7 @@ body{
   flex-direction: column;
 
 }
+
 #nav li {
   margin:0;
   padding:0;
@@ -78,4 +79,15 @@ img{
     flex-direction: row;
     justify-content: flex-end;
   }
+@media (min-width: 800px) {
+  #Logo {
+    margin-right: auto;
+    
+  }
+}
+
+
+
+
+
 }

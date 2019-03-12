@@ -43,14 +43,16 @@ body{
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  color:#black;
+  color:black;
   background-color: #fff;
   padding: 4px;
   font-family: Helvetica, Arial, sans-serif;
+  border-bottom: 1px double black;
 }
 
 #nav a:hover, #nav a:active {
-  background-color: red;
+  border-bottom: 1px double red;
+
 }
 .caption {
   font-family: Georgia, "Times New Roman", serif;

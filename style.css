@@ -83,7 +83,10 @@ body{
   font-family: Roboto, serif;
   font: 0.8em;
   border-top:;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: auto;
 }
 img{
   border: none;
@@ -98,12 +101,33 @@ img{
     display: inline-block;
     margin-left: 20px;
     margin-top: 10px;
-
-
+  }
+  #Facebook {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #Twitter {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
+.container {
+	display: flex;
+	align-items: flex-start;
+}
 
+.item-3 {
+  margin-right: 20px;
+  margin-left: 30px;
+  margin: auto;
+}
 
 
 

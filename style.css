@@ -16,6 +16,7 @@ body{
 <style>
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 </style>
+
 #container {
   background-color: #ffffff;
   width: 80%;
@@ -26,35 +27,34 @@ body{
   margin: 0 auto 0 auto;
   margin: 0 auto;
 }
+
 #nav {
   padding: 0;
   list-style-type: none;
   display: flex;
   flex-direction: column;
-
 }
 
 #nav li {
   margin:0;
   padding:0;
-  border-bottom: 1px solid #ccc;
 }
 #nav a:link, #nav a:visited {
   display:block;
   font-weight: bold;
   text-align: center;
-  text-decoration: underline;
   color:black;
   background-color: white;
   padding: 4px;
   font-family: Helvetica, Arial, sans-serif;
-  border-bottom: 1px double black;
+  border-bottom: 3px double black;
+  text-decoration: none;
 }
 
 #nav a:hover, #nav a:active {
   background-color: white;
-  border-bottom: 1px double red;
-  text-decoration: underline;
+  border-bottom: 3px double red;
+  text-decoration: none;
 }
 .caption {
   font-family: Georgia, "Times New Roman", serif;

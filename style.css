@@ -6,8 +6,8 @@ p{
 }
 h1{
   font-family: 'Roboto', serif;
-  border-bottom: 3px red;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: red;
 
 }
 body{

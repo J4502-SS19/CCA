@@ -118,6 +118,7 @@ img{
   }
   #newsphotos{
     display: flex;
+    flex-direction: column;
 
   }
 }

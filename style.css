@@ -117,7 +117,7 @@ img{
     margin-bottom: 10px;
   }
   #newsphotos{
-    display: inline-block;
+    display: column;
     margin-left: 10px;
     margin-right: 20px;
     margin-top: 10px;

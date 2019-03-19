@@ -75,9 +75,8 @@ body{
 #footer {
   color: #000;
   background-color: #C0C0C0;
-  font-family: Roboto, serif;
+  font-family: "Roboto", serif;
   font: 0.8em;
-  border-top:;
   display: flex;
   justify-content: center;
   align-content: center;

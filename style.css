@@ -126,10 +126,11 @@ img{
 	align-items: flex-start;
   justify-content: center;
   align-content: center;
+  width: 100%;
 
 }
 .homepage_images{
-  width: 80%;
+  width: 100%;
 }
 
 .item-3 {

@@ -138,8 +138,6 @@ img{
   margin-left: 30px;
   margin: auto;
 }
-<<<<<<< HEAD
-=======
 
 .row{
   display: flex;
@@ -148,14 +146,13 @@ img{
 .jrpic {
   flex: 50%;
   padding: 5px;
->>>>>>> 01b5b050a04012eaa1750fa6c10ebb0451c46a19
 }
 
 .joinrenew a:link, a:visited{
     background-color: red;
     color: white;
     padding: 14px 25px;
-    text-align: center; 
+    text-align: center;
     text-decoration: none;
 }
 
@@ -169,4 +166,3 @@ img{
   margin-bottom: 16px;
   padding: 0 8px;
 }
-

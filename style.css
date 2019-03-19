@@ -130,6 +130,7 @@ img{
 .container {
 	display: flex;
 	align-items: flex-start;
+
 }
 
 .item-3 {

@@ -121,6 +121,8 @@ img{
   #newsphotos{
     display: flex;
     flex-direction: column;
+    float: left;
+    margin: 4px;
 
   }
 }

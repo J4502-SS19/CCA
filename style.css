@@ -122,6 +122,7 @@ img{
     flex-direction: column;
     float: left;
     margin: 4px;
+    width: 40%; 
 
   }
 }

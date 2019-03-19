@@ -118,11 +118,11 @@ img{
     margin: 4px;
     width: 40%;
 
-  } 
+  }
 
 #homepagecontainer {
-	display: flex;
-  flex-flow: column;
+	/* display: flex;
+  flex-flow: column; */
 	align-items: flex-start;
   justify-content: center;
   align-content: center;
@@ -160,11 +160,11 @@ img{
   background-color: #f44336;
 }
 
-.column {
-  float: left;
-  width: 33.3%;
+ .column {
+  /* float: left; */
+  width: 100%;
   margin-bottom: 16px;
-  padding: 0 8px;
+  /* padding: 0 8px; */
 }
 
 .flex-container {

@@ -28,7 +28,7 @@ body{
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 </style>
 
-#container {
+#footer_container {
   background-color: #ffffff;
   width: 80%;
   margin-top: 0;
@@ -125,12 +125,15 @@ img{
     width: 40%;
 
   }
-}
 
-.container {
+#homepagecontainer {
 	display: flex;
+  flex-flow: column;
 	align-items: flex-start;
 
+}
+.homepage_images{
+  width: 250px;
 }
 
 .item-3 {

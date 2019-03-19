@@ -28,7 +28,7 @@ body{
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 </style>
 
-#container {
+#footer_container {
   background-color: #ffffff;
   width: 80%;
   margin-top: 0;
@@ -125,12 +125,15 @@ img{
     width: 40%;
 
   }
-}
 
-.container {
+#homepagecontainer {
 	display: flex;
+  flex-flow: column;
 	align-items: flex-start;
 
+}
+.homepage_images{
+  width: 250px;
 }
 
 .item-3 {
@@ -139,11 +142,25 @@ img{
   margin: auto;
 }
 
+.row{
+  display: flex;
+  }
 
-#nav a:hover, #nav a:active {
-  display:flex;
-  flex-flow: row wrap;
-  background-color: #7a991a;
+.jrpic {
+  flex: 50%;
+  padding: 5px;
+}
+
+.joinrenew a:link, a:visited{
+    background-color: red;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.joinrenew a:hover, a:active {
+  background-color: #f44336;
 }
 
 .column {
@@ -151,47 +168,4 @@ img{
   width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 95%;
-    display: block;
-  }
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container1 {
-  padding: 0 16px;
-}
-
-.container1::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
 }

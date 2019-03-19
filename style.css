@@ -130,10 +130,12 @@ img{
 	display: flex;
   flex-flow: column;
 	align-items: flex-start;
+  justify-content: center;
+  align-content: center;
 
 }
 .homepage_images{
-  width: 250px;
+  width: 80%;
 }
 
 .item-3 {

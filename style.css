@@ -171,10 +171,13 @@ img{
   flex-wrap: wrap;
   background-color: white;
 }
-
-#homepage_header {
-  display: flexible;
-  flex-flow: column;
+.homepage_header{
+  display: flex;
+  width:100%;
 }
+.homepage_images{
+  display:flex;
+  width: 80%;
+  align-items: center;
 
 }

@@ -127,7 +127,7 @@ img{
   }
 }
 
-.container {
+#homepagecontainer {
 	display: flex;
 	align-items: flex-start;
 

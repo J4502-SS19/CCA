@@ -133,6 +133,9 @@ img{
 	align-items: flex-start;
 
 }
+.homepage_images{
+  width: 250px;
+}
 
 .item-3 {
   margin-right: 20px;

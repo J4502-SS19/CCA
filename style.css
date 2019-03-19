@@ -127,6 +127,9 @@ img{
   }
 }
 
+.container {
+	display: flex;
+	align-items: flex-start;
 
 }
 
@@ -149,7 +152,7 @@ img{
     background-color: red;
     color: white;
     padding: 14px 25px;
-    text-align: center; 
+    text-align: center;
     text-decoration: none;
 }
 
@@ -163,4 +166,3 @@ img{
   margin-bottom: 16px;
   padding: 0 8px;
 }
-

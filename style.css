@@ -84,6 +84,11 @@ img{
   border: none;
 }
 
+.footer_container {
+  display: flex;
+  align-items: center;
+}
+
 /* @media (min-width: 600px) { */
   /* #nav {
     flex-direction: row;
@@ -133,8 +138,6 @@ img{
 .item-3 {
   display: flex;
   align-content: center;
-  margin-right: 30px;
-  margin-left: 30px;
   margin: auto;
 }
 

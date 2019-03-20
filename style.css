@@ -141,14 +141,14 @@ img{
   margin: auto;
 }
 
-.row{
+/*.row{
   display: flex;
   }
 
 .jrpic {
   flex: 50%;
   padding: 5px;
-}
+}*/
 
 .joinrenew a:link, a:visited{
     background-color: red;
@@ -159,7 +159,7 @@ img{
 }
 
 .joinrenew a:hover, a:active {
-  background-color: #f44336;
+  background-color: #E30108;
 }
 
  .column {

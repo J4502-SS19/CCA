@@ -182,5 +182,8 @@ img{
   display:flex;
   width: 70%;
   align-items: center;
+  border-radius: : 1px;
+  border-color: black;
+  padding: 8px;
 
 }

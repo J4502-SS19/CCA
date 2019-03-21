@@ -173,7 +173,7 @@ body{
   display: flex;
   width:100%;
 }
-.homepage_images img {
+.homepage_images{
   display:flex;
   width: 70%;
   align-items: center;

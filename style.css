@@ -21,14 +21,10 @@ body{
 }
 
 #container {
-  background-color: #ffffff;
-  width: 80%;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin: 0 auto 0 auto;
-  margin: 0 auto;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
 }
 
 #nav {
@@ -121,14 +117,6 @@ img{
     width: 40%;
 
   }
-
-#homepagecontainer {
-	/* display: flex;
-  flex-flow: column; */
-	align-items: flex-start;
-  justify-content: center;
-  align-content: center;
-  width: 100%;
 
 }
 .homepage_images{

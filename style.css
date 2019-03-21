@@ -81,7 +81,7 @@ body{
   margin-bottom: auto;
 }
 img{
-  border: none;
+  border: 1px solid;
 }
 
 .footer_container {
@@ -133,6 +133,9 @@ img{
 }
 .homepage_images{
   width: 100%;
+  border: 1px solid;
+  border-color: black;
+
 }
 
 .CCA {
@@ -176,6 +179,7 @@ img{
   display: flex;
   flex-wrap: wrap;
   background-color: white;
+
 }
 .homepage_header{
   display: flex;
@@ -187,10 +191,11 @@ img{
   align-items: center;
   border-radius: : 1px;
   border-color: black;
-  padding: 8px;
-
+  margin: 5px;
 }
-
+.hompage-image-2{
+  margin-top: 15px;
+}
 /*staffpage*/
 .staffcolumn {
   float: left;

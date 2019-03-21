@@ -117,7 +117,9 @@ img{
     width: 40%;
 
   }
-
+a{
+  color: blue;
+  visited: purple;
 }
 .homepage_images{
   width: 100%;

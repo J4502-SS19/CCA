@@ -21,14 +21,10 @@ body{
 }
 
 #container {
-  background-color: #ffffff;
-  width: 80%;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin: 0 auto 0 auto;
-  margin: 0 auto;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
 }
 
 #nav {
@@ -80,9 +76,9 @@ body{
   align-content: center;
   margin-bottom: auto;
 }
-img{
-  border: none;
-}
+/* img{
+  border: 1px solid;
+} */
 
 .footer_container {
   display: flex;
@@ -122,17 +118,12 @@ img{
 
   }
 
-#homepagecontainer {
-	/* display: flex;
-  flex-flow: column; */
-	align-items: flex-start;
-  justify-content: center;
-  align-content: center;
-  width: 100%;
-
 }
 .homepage_images{
   width: 100%;
+  border: 1px solid;
+  border-color: black;
+
 }
 
 .CCA {
@@ -176,6 +167,7 @@ img{
   display: flex;
   flex-wrap: wrap;
   background-color: white;
+
 }
 .homepage_header{
   display: flex;
@@ -185,12 +177,10 @@ img{
   display:flex;
   width: 70%;
   align-items: center;
-  border-radius: : 1px;
+  border-radius: : .5px;
   border-color: black;
-  padding: 8px;
-
+  margin: 5px;
 }
-
 /*staffpage*/
 .staffcolumn {
   float: left;

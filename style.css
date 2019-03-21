@@ -76,9 +76,9 @@ body{
   align-content: center;
   margin-bottom: auto;
 }
-/* img{
+img{
   border: 1px solid;
-} */
+}
 
 .footer_container {
   display: flex;
@@ -92,7 +92,7 @@ body{
   }*/
   #Logo {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 15px;
   }
   #Facebook {
@@ -123,7 +123,9 @@ body{
   width: 100%;
   border: 1px solid;
   border-color: black;
-
+}
+.homepage_header{
+  margin-bottom: 10px;
 }
 
 .CCA {

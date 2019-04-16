@@ -47,7 +47,7 @@ body{
   padding: 4px;
   font-family: Helvetica, Arial, sans-serif;
   /*text-decoration-style: double;*/
-  border-bottom: 2px double black;
+  border-bottom: black;
   text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ body{
   background-color: white;
   /*text-decoration-style: double;
   text-decoration-color: red;*/
-  border-bottom: 2px double white;
+  border-bottom: black;
   text-decoration: none;
 }
 .caption {

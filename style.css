@@ -58,7 +58,7 @@ body{
   /*text-decoration-style: double;
   text-decoration-color: red;*/
   border-bottom: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .menu-trigger {

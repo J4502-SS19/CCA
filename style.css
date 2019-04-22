@@ -92,9 +92,6 @@ body{
   align-content: center;
   margin-bottom: auto;
 }
-img{
-  border: 1px solid;
-}
 
 .footer_container {
   display: flex;

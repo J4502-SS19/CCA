@@ -54,11 +54,10 @@ body{
 }
 
 #nav a:hover, #nav a:active {
-  background-color: white;
-  /*text-decoration-style: double;
-  text-decoration-color: red;*/
+  text-decoration-style: double;
+  text-decoration-color: red;
   border-bottom: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .caption {
   font-family: Georgia, "Times New Roman", serif;

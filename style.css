@@ -63,25 +63,17 @@ body{
 
 .menu-trigger {
     order: 1;
-    font-size: 4em;
-    color: black;
+    font-size: 1.75em;
     width: 2em;
-    text-decoration: none;
 }
 
-#Logo {
-  order: 2;
+#Logo h1 {
+    order: 2;
+    font-size: 2em;
 }
 
 #nav ul {
     display: none;
-}
-
-header {
-    display: flex;
-    flex-flow: row;
-    margin: 0;
-    padding: 0 10px;
 }
 
 .caption {

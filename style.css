@@ -43,7 +43,6 @@ body{
   font-weight: bold;
   text-align: center;
   color:black;
-  background-color: white;
   padding: 4px;
   font-family: Helvetica, Arial, sans-serif;
   /*text-decoration-style: double;*/
@@ -54,12 +53,27 @@ body{
 }
 
 #nav a:hover, #nav a:active {
-  background-color: white;
   /*text-decoration-style: double;
   text-decoration-color: red;*/
   border-bottom: black;
   text-decoration: none;
 }
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+#Logo h1 {
+    order: 2;
+    font-size: 2em;
+}
+
+#nav ul {
+    display: none;
+}
+
 .caption {
   font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
@@ -236,3 +250,27 @@ a{
   background-color: #555;
 }
 /*staffpage*/
+}
+
+@@media screen and (min-width: 700px){
+
+#nav ul {
+        display: flex;
+    }
+
+#nav ul li {
+        border-top: none;
+    }
+
+.menu-trigger {
+        display: none;
+    }
+
+    #Logo h1 {
+        order: 1;
+    }
+
+    #nav {
+        order: 2;
+    }
+}

@@ -4,21 +4,28 @@ p{
 }
 h1{
   font-family: 'Roboto', serif;
-  text-decoration: underline;
-  text-decoration-color: red;
+  font-size: 60px;
+  /* color: #be7171 */
+  /* text-decoration: underline; */
+  /* text-decoration-color: #be7171 */
 }
 
 h2{
   font-family: 'Roboto', serif;
-  text-decoration: underline;
-  text-decoration-color: red;
+  font-size: 30px;
+  color: #be7171;
+  /* text-decoration: underline; */
+  /* text-decoration-color: red; */
 }
 h3{
   font-family: 'Roboto', serif;
+  font-size: 20px;
+  color: #807070;
 }
 
 body{
   background-color: #FFFFFF;
+  /* background-color: #f2efe6; */
 }
 
 #container {
@@ -62,6 +69,7 @@ body{
 }
 
 .menu-trigger {
+    display: inline-block;
     order: 1;
     font-size: 4em;
     width: 2em;
@@ -69,9 +77,10 @@ body{
     color: black;
 }
 
-#Logo {
+/* #Logo {
+    display:inline-block;
     order: 2;
-    font-size: 2em;
+    font-size: 2em; */
 }
 
 header {
@@ -115,9 +124,11 @@ header {
     justify-content: flex-end;
   }*/
   #Logo {
-    display: inline-block;
+    display: block;
     margin-left: 15px;
     margin-top: 15px;
+    order: 2;
+    font-size: 2em;
   }
   #Facebook {
     display: inline-block;
@@ -197,10 +208,10 @@ a{
   background-color: white;
 
 }
-.homepage_header{
-  display: flex;
+/* .homepage_header{
+  display: inline-block;
   width:100%;
-}
+} */
 .homepage_images{
   display:flex;
   width: 70%;

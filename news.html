@@ -13,17 +13,24 @@
 	<style>
 		@import url('https://fonts.googleapis.com/css?family=Raleway');
 	</style>
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  	<script src="script.js" type="text/javascript"></script>
 </head>
 
 <body>
-	<div id="container">
+
+		<header>
 			<a href="index.html" id="Logo"><img width="300px" src="Images/CCALogo.jpg" alt="CCA Logo" /></a>
-			<ul id="nav">
-	        <li><a href="aboutus.html">About</a></li>
-	        <li><a href="joinandrenew.html">Membership</a></li>
-	        <li><a href="callforpapers.html">Papers</a></li>
-	    </ul>
-		</div>
+
+		<div id="container">
+				 <a class="menu-trigger" href="#">&#9776;<a/>
+				<ul id="nav">
+		        <li><a href="aboutus.html">About</a></li>
+		        <li><a href="joinandrenew.html">Membership</a></li>
+		        <li><a href="callforpapers.html">Papers</a></li>
+		    </ul>
+			</div>
+		</header>
 <!--This is a comment. It won't show up in your browser, only in the page source-->
  	<h1>News</h1>
 <div class="newsphotos">
@@ -42,8 +49,15 @@
 	<p>Please volunteer to review papers and panels! If you are interested, please send email to Dr. Qiu (jacklqiu@cuhk.edu.hk) or Dr. Tang (ltang@tamu.edu), providing a brief summary of your expertise and contact information.</p>
 
 	<h2>Archive</h2>
-	<p>This is where old news posts will go.</span></p>
-	<button onclick="myFunction()" id="myBtn">Read more</button>
+	<p>View old posts here.</span></p>
+<details>
+	<summary>Read More</summary>
+	<ol>
+			<p>Lorem ipsum proin nisl litora sociosqu ullamcorper lacinia, primis non habitasse interdum sem ut ultrices, aliquet donec tempor curabitur dui non.</p>
+			<p>Cras viverra at ut lorem sociosqu suspendisse cras aptent, mattis consequat consectetur nunc bibendum elit posuere urna, neque adipiscing augue cubilia diam potenti metus proin sagittis feugiat eu donec vitae ligula sem suscipit leo cras.</p>
+			<p>Donec inceptos litora rutrum sem congue dolor sodales elit euismod, varius elementum taciti malesuada curabitur ornare erat vulputate nisl, duis et nunc convallis duis suscipit hendrerit nulla odio suscipit aliquam hac augue.</p>
+		</ol>
+	</details>
 
 	<div id="footer">
 		<div class="footer_container">

@@ -71,8 +71,8 @@ body{
 .menu-trigger {
     display: inline-block;
     order: 1;
-    font-size: 4em;
-    width: 2em;
+    font-size: 3em;
+    width: 1em;
     text-decoration: none;
     color: black;
 }
@@ -86,6 +86,7 @@ body{
 header {
     display: flex;
     flex-flow: row;
+    background-color: #65a8a6;
     margin: 0;
     padding: 0 10px;
 }
@@ -214,7 +215,7 @@ a{
 } */
 .homepage_images{
   display:flex;
-  width: 70%;
+  width: 100%;
   align-items: center;
   border-radius: : .5px;
   border-color: black;
@@ -309,8 +310,9 @@ a{
         border-top: none;
     }
 
-.menu-trigger {
-        display: none;
+.menu-trigger{
+      display: none;
+
     }
 
     #Logo h1 {

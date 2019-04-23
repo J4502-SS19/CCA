@@ -4,8 +4,9 @@ p{
 }
 h1{
   font-family: 'Roboto', serif;
+  color: #be7171
   /* text-decoration: underline; */
-  text-decoration-color: #be7171;
+  /* text-decoration-color: #be7171 */
 }
 
 h2{

@@ -143,7 +143,7 @@ header {
     display: inline-block;
     margin: 10px;
   }
-  
+
   #Twitter {
     display: inline-block;
     margin: 10px;
@@ -231,7 +231,6 @@ a{
 
 .staffcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border: 1px solid gray;
   box-shadow: 1px 1px 3px #888;
   padding: 0;
   margin-bottom: 20px;

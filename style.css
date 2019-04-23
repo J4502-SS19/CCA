@@ -124,8 +124,7 @@ header {
     justify-content: flex-end;
   }*/
   #Logo {
-    display: flex;
-    flex-flow: row;
+    display: block;
     margin-left: 15px;
     margin-top: 15px;
   }

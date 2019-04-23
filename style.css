@@ -4,7 +4,8 @@ p{
 }
 h1{
   font-family: 'Roboto', serif;
-  color: #be7171
+  font-size: 30px;
+  /* color: #be7171 */
   /* text-decoration: underline; */
   /* text-decoration-color: #be7171 */
 }

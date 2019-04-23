@@ -71,7 +71,7 @@ body{
 .menu-trigger {
     display: inline-block;
     order: 1;
-    font-size: 4em;
+    font-size: 2em;
     width: 2em;
     text-decoration: none;
     color: black;

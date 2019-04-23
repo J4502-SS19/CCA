@@ -86,6 +86,7 @@ body{
 header {
     display: flex;
     flex-flow: row;
+    background-color: #65a8a6;
     margin: 0;
     padding: 0 10px;
 }

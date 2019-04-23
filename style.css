@@ -118,6 +118,12 @@ header {
   align-items: center;
 }
 
+.CCA {
+  display: flex;
+  align-content: center;
+  margin: 10px;
+}
+
 /* @media (min-width: 600px) { */
   /* #nav {
     flex-direction: row;
@@ -163,12 +169,6 @@ a{
 }
 .homepage_header{
   margin-bottom: 10px;
-}
-
-.CCA {
-  display: flex;
-  align-content: center;
-  margin: auto;
 }
 
 /*.row{

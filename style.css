@@ -215,7 +215,7 @@ a{
 } */
 .homepage_images{
   display:flex;
-  width: 70%;
+  width: 100%;
   align-items: center;
   border-radius: : .5px;
   border-color: black;

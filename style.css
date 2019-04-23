@@ -233,6 +233,9 @@ a{
     width: 97%;
     display: block;
   }
+  .newsphotos {
+      width: 30%;
+      }
 }
 
 .staffcard {
@@ -271,7 +274,7 @@ a{
 /*staffpage*/
 }
 
-@@media screen and (min-width: 700px){
+@media screen and (min-width: 700px){
 
 #nav ul {
         display: flex;
@@ -292,4 +295,5 @@ a{
     #nav {
         order: 2;
     }
+
 }

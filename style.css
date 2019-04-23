@@ -203,10 +203,10 @@ a{
   background-color: white;
 
 }
-.homepage_header{
-  display: flex;
+/* .homepage_header{
+  display: inline-block;
   width:100%;
-}
+} */
 .homepage_images{
   display:flex;
   width: 70%;

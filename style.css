@@ -202,7 +202,7 @@ a{
 
 }
 .homepage_header{
-  display: flex;
+  display: inline-block;
   width:100%;
 }
 .homepage_images{

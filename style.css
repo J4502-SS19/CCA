@@ -36,15 +36,15 @@ body{
 }
 
 #nav {
+  display: none;
   padding: 0;
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
 }
 
 #nav li {
+  display: block;
   margin:0;
-  padding:0;
+  padding-left: 3px;
 }
 
 #nav a:link, #nav a:visited {
@@ -52,47 +52,40 @@ body{
   font-weight: bold;
   text-align: center;
   color:black;
-  padding: 4px;
+  padding: 5px;
   font-family: Helvetica, Arial, sans-serif;
-  /*text-decoration-style: double;*/
   border-bottom: 2px solid black;
-  margin-bottom: .5em;
   color: black;
   text-decoration: none;
 }
 
 #nav a:hover, #nav a:active {
-  /*text-decoration-style: double;
-  text-decoration-color: red;*/
-  border-bottom: black;
+  border-bottom: 2px solid #be7171;
   text-decoration: none;
 }
 
 .menu-trigger {
-    display: inline-block;
     order: 1;
     font-size: 3em;
-    width: 1em;
     text-decoration: none;
     color: black;
 }
 
-/* #Logo {
-    display:inline-block;
+#Logo {
+    display: inline-block;
+    margin-top: 15px;
     order: 2;
-    font-size: 2em; */
-}
+  }
 
 header {
     display: flex;
     flex-flow: row;
-    background-color: #65a8a6;
     margin: 0;
     padding: 0 10px;
 }
 
 #nav ul {
-    display: none;
+  display: none;
 }
 
 .caption {
@@ -131,13 +124,6 @@ header {
     flex-direction: row;
     justify-content: flex-end;
   }*/
-  #Logo {
-    display: block;
-    margin-left: 15px;
-    margin-top: 15px;
-    order: 2;
-    font-size: 2em;
-  }
 
   #Facebook {
     display: inline-block;
@@ -278,6 +264,31 @@ a{
     .staffcard {
         width: 45%;
     }
+
+    #Logo {
+      width: 300px;
+    }
+}
+
+@media screen and (min-width: 900px){
+
+#container ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+.menu-trigger {
+      display: none;
+    }
+
+    #Logo {
+        order: 1;
+        width: 300px;
+    }
+
+    #container {
+        order: 2;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -288,37 +299,7 @@ a{
         width: 70%;
         max-width: 60em;
     }
-    nav ul {
-        justify-content: flex-end;
-    }
-    nav ul li {
-        margin-left: 1.8em;
-    }
 }
 
 /*staff.html*/
-}
-
-@@media screen and (min-width: 700px){
-
-#nav ul {
-        display: flex;
-    }
-
-#nav ul li {
-        border-top: none;
-    }
-
-.menu-trigger{
-      display: none;
-
-    }
-
-    #Logo h1 {
-        order: 1;
-    }
-
-    #nav {
-        order: 2;
-    }
 }

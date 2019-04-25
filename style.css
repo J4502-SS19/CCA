@@ -310,7 +310,7 @@ a{
         }
 
         .homepage_images {
-            width: 415px;
+            width: 450px;
         }
   }
 
@@ -339,4 +339,10 @@ a{
     .staffcard {
         width: 30%;
     }
+}
+
+@media screen and (min-width: 1200px) {
+.homepage_images {
+    width: 500px;
+}
 }

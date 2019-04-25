@@ -28,6 +28,16 @@ body{
   /* background-color: #f2efe6; */
 }
 
+@media screen and (min-width: 900px) {
+    .newsphotos {
+         width: 500px;
+    }
+}
+
+.newsphotos {
+  max-width: 100%;
+}
+
 #container {
   align-items: flex-start;
   justify-content: center;

@@ -1,7 +1,6 @@
 p{
   color:black;
   font-family: 'Raleway', sans-serif;
-  max-width: 50%;
 }
 h1{
   font-family: 'Roboto', serif;
@@ -27,6 +26,11 @@ h3{
 body{
   background-color: #FFFFFF;
   /* background-color: #f2efe6; */
+}
+
+div {
+  color:black;
+  font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (min-width: 900px) {
@@ -185,12 +189,17 @@ a{
     flex-flow: column;
 }
 
+.column1 {
+    display: flex;
+    flex-flow: column;
+}
+
 .homepage_images {
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
     padding: 0;
     margin: 5px;
-    width: 415px;
+    max-width: 425px;
 }
 
 /*.row{
@@ -220,6 +229,16 @@ a{
   width: 100%;
   margin-bottom: 16px;
   /* padding: 0 8px; */
+}
+
+.column1 {
+ /* float: left; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 100%;
+ margin-bottom: 16px;
+ /* padding: 0 8px; */
 }
 
 .flex-container {
@@ -278,6 +297,101 @@ a{
   background-color: #555;
 }
 
+.homepage_images {
+  width: 100%;
+}
+
+.newslidecont {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  color: #be7171;
+}
+
+.text a{
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid #be7171;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+  padding-top: 4px;
+  padding-left: 4px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #be7171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
 @media screen and (min-width: 600px) {
     #container {
         width: 80%;
@@ -315,14 +429,16 @@ a{
     }
 
     .column {
-            flex-flow: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
+          flex-flow: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
         }
 
-        .homepage_images {
-            width: 450px;
-        }
+#fullscreen {
+  width: 70%;
+  margin: 0 auto;
+}
+
   }
 
 @media screen and (min-width: 900px){
@@ -350,10 +466,33 @@ a{
     .staffcard {
         width: 30%;
     }
+
+    .column1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        align-items: start;
+        grid-template-areas:
+          "a b"
+          "c d";
+        }
+
+.aboutblurb {
+  grid-area: a;
+
 }
 
-@media screen and (min-width: 1200px) {
-.homepage_images {
-    width: 500px;
+.nslideshow {
+  grid-area: b;
+}
+
+.conferencebox {
+  grid-area: c;
+}
+
+.jobbox {
+  grid-area: d;
 }
 }
+
+@media screen and (min-width: 1200px)

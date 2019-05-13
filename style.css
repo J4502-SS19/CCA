@@ -263,12 +263,18 @@ a{
 .staff-container {
     display: flex;
     flex-flow: column;
+    padding: 20px;
 }
 
 .staffcard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   box-shadow: 1px 1px 3px #888;
   padding: 0;
-  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.staffcard p{
+  padding: 10px;
 }
 
 .staffcontainer {
@@ -399,7 +405,7 @@ a{
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
     #container {
         width: 80%;
     }
@@ -411,7 +417,7 @@ a{
     }
 
     .staff-card {
-      max-width: 75%;
+      max-width: 45%;
     }
 
     #Logo {
@@ -450,7 +456,7 @@ a{
 
   }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 800px){
 
 #container ul {
       display: flex;
@@ -470,14 +476,8 @@ a{
         order: 2;
     }
 
-    .staff-container {
-      justify-content: space-around;
-      padding-left: 75px;
-      padding-right: 75px;
-    }
-
     .staffcard {
-        width: 18%;
+        width: 30%;
     }
 
     .column1 {

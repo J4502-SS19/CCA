@@ -339,8 +339,8 @@ a{
   color: black;
   background-color: white;
   font-size: 15px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   bottom: 4px;
   position: absolute;
   width: 100%;
@@ -474,18 +474,8 @@ a{
         grid-gap: 10px;
         align-items: start;
         grid-template-areas:
-          "a b"
           "c d";
         }
-
-.aboutblurb {
-  grid-area: a;
-
-}
-
-.nslideshow {
-  grid-area: b;
-}
 
 .conferencebox {
   grid-area: c;

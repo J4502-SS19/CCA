@@ -23,6 +23,12 @@ h3{
   color: #807070;
 }
 
+h4{
+  font-family: 'Roboto', serif;
+  font-size: 25px;
+  color: #be7171;
+}
+
 body{
   background-color: #FFFFFF;
   /* background-color: #f2efe6; */
@@ -257,14 +263,12 @@ a{
 .staff-container {
     display: flex;
     flex-flow: column;
-    padding: 20px;
 }
 
 .staffcard {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 3px #888;
   padding: 0;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 
 .staffcontainer {
@@ -296,6 +300,8 @@ a{
 .staffbutton:hover {
   background-color: #555;
 }
+
+/*staff.html*/
 
 .homepage_images {
   width: 100%;
@@ -393,17 +399,19 @@ a{
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     #container {
         width: 80%;
     }
+
     .staff-container {
         flex-flow: row;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .staffcard {
-        width: 45%;
+
+    .staff-card {
+      max-width: 75%;
     }
 
     #Logo {
@@ -461,11 +469,15 @@ a{
     #container {
         order: 2;
     }
-}
 
-@media screen and (min-width: 800px) {
+    .staff-container {
+      justify-content: space-around;
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
     .staffcard {
-        width: 30%;
+        width: 18%;
     }
 
     .column1 {

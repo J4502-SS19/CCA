@@ -25,7 +25,7 @@ h3{
 
 h4{
   font-family: 'Roboto', serif;
-  font-size: 25px;
+  font-size: 20px;
   color: #be7171;
 }
 
@@ -263,18 +263,18 @@ a{
 .staff-container {
     display: flex;
     flex-flow: column;
-    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .staffcard {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   box-shadow: 1px 1px 3px #888;
   padding: 0;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 
-.staffcard p{
-  padding: 10px;
+.staffcard p {
+  margin-right: 10px;
 }
 
 .staffcontainer {
@@ -289,6 +289,11 @@ a{
 
 .stafftitle {
   color: grey;
+  font-size: 12px;
+}
+
+.employer{
+  font-size: 12px;
 }
 
 .staffbutton {
@@ -406,18 +411,19 @@ a{
 
 
 @media screen and (min-width: 600px) {
+
     #container {
-        width: 80%;
+      width: 80%;
     }
 
     .staff-container {
         flex-flow: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
-    .staff-card {
-      max-width: 45%;
+    .staffcard {
+      width: 45%;
     }
 
     #Logo {
@@ -456,7 +462,31 @@ a{
 
   }
 
+@media screen and (min-width: 775px){
+
+  .staffcard {
+      width: 30%;
+  }
+
+  .staff-container{
+      justify-content: space-around;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 0px;
+  }
+
 @media screen and (min-width: 800px){
+
+  .staffcard {
+      width: 18%;
+  }
+
+  .staff-container{
+      justify-content: space-around;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 0px;
+  }
 
 #container ul {
       display: flex;
@@ -474,10 +504,6 @@ a{
 
     #container {
         order: 2;
-    }
-
-    .staffcard {
-        width: 30%;
     }
 
     .column1 {

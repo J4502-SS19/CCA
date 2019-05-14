@@ -469,7 +469,7 @@ a{
 
   }
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 800px){
 
   .staffcard {
       width: 30%;
@@ -482,7 +482,7 @@ a{
       padding-top: 0px;
   }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 950px){
 
   #container ul {
         display: flex;

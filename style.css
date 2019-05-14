@@ -489,24 +489,6 @@ a{
       padding-top: 0px;
   }
 
-#container ul {
-      display: flex;
-      justify-content: flex-end;
-    }
-
-.menu-trigger {
-      display: none;
-    }
-
-    #Logo {
-        order: 1;
-        width: 300px;
-    }
-
-    #container {
-        order: 2;
-    }
-
     .column1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -525,4 +507,23 @@ a{
 }
 }
 
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 950px){
+
+#container ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+.menu-trigger {
+      display: none;
+    }
+
+    #Logo {
+        order: 1;
+        width: 300px;
+    }
+
+    #container {
+        order: 2;
+    }
+  }

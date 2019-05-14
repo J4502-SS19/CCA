@@ -72,6 +72,7 @@ div {
   display: block;
   margin:0;
   padding-left: 3px;
+
 }
 
 #nav a:link, #nav a:visited {
@@ -471,7 +472,7 @@ a{
 
   }
 
-@media screen and (min-width: 775px){
+@media screen and (min-width: 800px){
 
   .staffcard {
       width: 30%;
@@ -484,7 +485,7 @@ a{
       padding-top: 0px;
   }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 950px){
 
   #container ul {
         display: flex;
@@ -532,3 +533,27 @@ a{
   grid-area: d;
 }
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (min-width: 950px){
+
+#container ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+.menu-trigger {
+      display: none;
+    }
+
+    #Logo {
+        order: 1;
+        width: 300px;
+    }
+
+    #container {
+        order: 2;
+    }
+  }
+>>>>>>> parent of 4b0d1ec... Update style.css

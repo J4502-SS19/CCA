@@ -232,6 +232,9 @@ a{
   background-color: #be7171;
   text-align: center;
   cursor: pointer;
+  display: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
   }
 
  .column {
@@ -484,6 +487,7 @@ a{
 
 @media screen and (min-width: 950px){
 
+
   #container ul {
         display: flex;
         justify-content: flex-end;
@@ -500,6 +504,11 @@ a{
 
       #container {
           order: 2;
+      }
+
+      .joinrenew{
+        display: inline-flex;
+        order: 3;
       }
 
   .staffcard {

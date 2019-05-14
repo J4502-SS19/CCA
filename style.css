@@ -35,6 +35,12 @@ body{
   /* background-color: #f2efe6; */
 }
 
+ul {
+  color:black;
+  font-family: 'Raleway', sans-serif;
+  max-width: 550px;
+}
+
 div {
   color:black;
   font-family: 'Raleway', sans-serif;
@@ -478,6 +484,24 @@ a{
 
 @media screen and (min-width: 900px){
 
+  #container ul {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+  .menu-trigger {
+        display: none;
+      }
+
+      #Logo {
+          order: 1;
+          width: 300px;
+      }
+
+      #container {
+          order: 2;
+      }
+
   .staffcard {
       width: 18%;
   }
@@ -506,24 +530,3 @@ a{
   grid-area: d;
 }
 }
-
-@media screen and (min-width: 955px){
-
-#container ul {
-      display: flex;
-      justify-content: flex-end;
-    }
-
-.menu-trigger {
-      display: none;
-    }
-
-    #Logo {
-        order: 1;
-        width: 300px;
-    }
-
-    #container {
-        order: 2;
-    }
-  }

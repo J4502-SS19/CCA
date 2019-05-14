@@ -14,7 +14,7 @@
 		@import url('https://fonts.googleapis.com/css?family=Raleway');
 	</style>
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  	<script src="script.js" type="text/javascript"></script>
+
 </head>
 <body>
 	<header>
@@ -27,20 +27,55 @@
 				<li><a href="callforpapers.html">Conferences</a></li>
 				<li><a href="news.html">News</a></li>
 				<li><a href="staff.html">Steering Committee</a></li>
-				<li><a href="directory.html">Lifetime Members</a></li>
+				<li><a href="directory.html">Directory of Lifetime Members</a></li>
 	    </ul>
-	</div>
-	</header>
-		<img class="homepage_header" src="Images/cover-art.jpg" alt="Hong Kong" width="100%"/>
-
-<div id="fullscreen">
-<div class="column">
-	<a href="joinandrenew.html"><img class="homepage_images" id="homepage-image-2" src="Images/membership-homepage.jpg" alt="People drinking tea"></a>
-	<a href="callforpapers.html"><img class="homepage_images" src="Images/stackofpapers.jpg"/></a>
-	<a href="news.html"><img class="homepage_images" src="Images/jobs-homepage.jpg" alt="Professor teaching"/></a>
-	<a href="news.html"><img class="homepage_images" src="Images/newsletter.jpg" alt="Blurbs"/></a>
+	</div>	
+<div class="joinrenew">
+	<a href="Pdf/Membership.pdf">Join</a>
 </div>
+	</header>
+		<a href="joinandrenew.html"><img class="homepage_header" src="Images/cover-art.jpg" alt="Hong Kong" width="100%"/></a>
+<!--<div class="homethree">
+		<img id="hk" src="Images/cover-art.jpg" alt="Hong Kong" height="200px"/>
+		<img id="dc" src="Images/dc.jpg" alt="Washington D.C." height="200px"/>
+		<img id="wall" src="Images/wall.jpg" alt="Great Wall of China" height="200px"/>
+</div>-->
+<div id="fullscreen">
+	<div id="aboutblurb"><p>The aim of the Chinese Communication Association is to promote, enhance, and facilitate scholarly activities and exchanges on Chinese communication, which is broadly defined to embrace any aspect of communication studies concerning mainland China, Hong Kong, Taiwan.</p><p>For the last twenty years, CCA has been home to Chinese communication scholars and those interested in Chinese communication around the world. At this time of technological advances when timely information is truly valued, our collective work to extend understanding of communication has never been more important.</p></div>
+<div class="nslideshow">
+	<h2>News</h2>
+	<div class="newslidecont">
+		<div class="mySlides">
+				<img src="Images/bookproposals.jpg" width="100%"/>
+		<div class="text">The United Society of China Studies has announced a call for book proposals.</div>
+		</div>
 
+		<div class="mySlides">
+	<img src="Images/jobopening.jpg" width="100%"/>
+		<div class="text">Taiwan's NCU College of Communication invites applications for full-time faculty positions.</div>
+		</div>
+
+		<div class="mySlides">
+				<img src="Images/award.png" width="100%"/>
+		<div class="text">CCA is calling for award nominations to recognize excellence in CCA members.</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+	</div>
+	<br>
+	<div class="column1">
+	<a class="conferencebox" href="callforpapers.html"><img class="homepage_images" src="Images/stackofpapers.jpg"/></a>
+	<a class="jobbox" href="job.html"><img class="homepage_images" src="Images/jobs-homepage.jpg" alt="Professor teaching"/></a>
+</div>
+</div>
 <div id="footer">
 	<div class="footer_container">
 		<a href="https://www.facebook.com/Chinese-Communication-Association-287595881345411/" id="Facebook"><img height="50px" width="50px" src="Images/Facebook.jpg" alt="Facebook" /></a>
@@ -48,7 +83,7 @@
 		<div class="CCA">©Chinese Communication Association, 2019. | All rights reserved.</div>
 	</div>
 </div>
-</div>
+<script src="script.js" type="text/javascript"></script>
 </body>
 
 </html>

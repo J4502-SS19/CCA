@@ -530,3 +530,27 @@ a{
   grid-area: d;
 }
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (min-width: 950px){
+
+#container ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+.menu-trigger {
+      display: none;
+    }
+
+    #Logo {
+        order: 1;
+        width: 300px;
+    }
+
+    #container {
+        order: 2;
+    }
+  }
+>>>>>>> parent of 4b0d1ec... Update style.css

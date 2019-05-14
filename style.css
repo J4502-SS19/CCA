@@ -1,8 +1,8 @@
 p{
   color:black;
   font-family: 'Raleway', sans-serif;
+  max-width: 550px;
 }
-
 h1{
   font-family: 'Roboto', serif;
   font-size: 60px;
@@ -38,6 +38,7 @@ body{
 ul {
   color:black;
   font-family: 'Raleway', sans-serif;
+  max-width: 550px;
 }
 
 div {
@@ -72,7 +73,6 @@ div {
   display: block;
   margin:0;
   padding-left: 3px;
-
 }
 
 #nav a:link, #nav a:visited {
@@ -227,14 +227,11 @@ a{
 .joinrenew{
   border: none;
   outline: 0;
-  padding: 10px;
+  display: inline-block;
+  padding: 8px;
   background-color: #be7171;
   text-align: center;
   cursor: pointer;
-  display:inline-flex;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  order: 3;
   }
 
  .column {
@@ -533,8 +530,6 @@ a{
   grid-area: d;
 }
 }
-<<<<<<< HEAD
-=======
 
 @media screen and (min-width: 950px){
 
@@ -556,4 +551,3 @@ a{
         order: 2;
     }
   }
->>>>>>> parent of 4b0d1ec... Update style.css

@@ -322,6 +322,12 @@ a{
   background-color: #555;
 }
 
+details[style] {
+  font-family: 'Roboto', serif;
+  font-size: 30px;
+  color: #be7171;
+}
+
 /*staff.html*/
 
 .homepage_images {

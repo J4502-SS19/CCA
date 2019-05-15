@@ -283,6 +283,11 @@ a{
   margin: 10px;
 }
 
+.membercard {
+  padding: 0;
+  margin: 10px;
+}
+
 .staffcard p {
   margin-right: 10px;
 }

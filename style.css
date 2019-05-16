@@ -484,6 +484,10 @@ details[style] {
 
 @media screen and (min-width: 853px){
 
+  #container {
+    width: 80%;
+  }
+
   .staffcard {
       width: 30%;
   }

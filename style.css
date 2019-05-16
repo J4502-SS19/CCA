@@ -46,21 +46,13 @@ div {
   font-family: 'Raleway', sans-serif;
 }
 
-@media screen and (min-width: 900px) {
-    .newsphotos {
-         width: 500px;
-    }
-}
-
 .newsphotos {
   max-width: 100%;
 }
 
 #container {
   display: flex;
-  align-items: flex-start;
   justify-content: flex-end;
-  align-content: center;
 }
 
 #nav {
@@ -511,24 +503,6 @@ details[style] {
 
 @media screen and (min-width: 950px){
 
-  #container ul {
-        display: flex;
-        justify-content: flex-end;
-      }
-
-  .menu-trigger {
-        display: none;
-      }
-
-      #Logo {
-          order: 1;
-          max-width: 300px;
-      }
-
-      #container {
-          order: 2;
-      }
-
       .joinrenew{
         display: inline-flex;
         order: 3;
@@ -565,9 +539,6 @@ details[style] {
 .jobbox {
   grid-area: d;
 }
-}
-
-@media screen and (min-width: 950px){
 
 #container ul {
       display: flex;
@@ -586,4 +557,4 @@ details[style] {
     #container {
         order: 2;
     }
-  }
+}

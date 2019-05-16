@@ -432,10 +432,6 @@ details[style] {
 
 @media screen and (min-width: 600px) {
 
-    #container {
-      width: 80%;
-    }
-
     .staff-container {
         flex-flow: row;
         flex-wrap: wrap;
@@ -505,7 +501,7 @@ details[style] {
 
   #container ul {
         display: flex;
-        justify-content: flex-end;
+        align-items: flex-end;
       }
 
   .menu-trigger {
@@ -519,6 +515,8 @@ details[style] {
 
       #container {
           order: 2;
+          display: flex;
+          justify-content: flex-end;
       }
 
       .joinrenew{

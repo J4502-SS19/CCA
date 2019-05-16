@@ -66,14 +66,14 @@ div {
   display: block;
   margin:0;
   padding-left: 3px;
-}
+  }
 
 #nav a:link, #nav a:visited {
   display:block;
   font-weight: bold;
   text-align: center;
   color: black;
-  padding: 5px;
+  padding: 10px;
   font-family: Helvetica, Arial, sans-serif;
   border-bottom: 2px solid black;
   color: black;

@@ -57,10 +57,10 @@ div {
 }
 
 #container {
+  display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-end;
   align-content: center;
-  width: 100%;
 }
 
 #nav {
@@ -292,6 +292,10 @@ a{
   margin-right: 10px;
 }
 
+.membercard p {
+  margin-right: 10px;
+}
+
 .staffcontainer {
   padding: 0 16px;
 }
@@ -447,6 +451,10 @@ details[style] {
       width: 45%;
     }
 
+    .membercard {
+      width: 45%;
+    }
+
     #Logo {
       width: 300px;
     }
@@ -489,6 +497,10 @@ details[style] {
       width: 30%;
   }
 
+  .membercard {
+    width: 30%;
+  }
+
   .staff-container{
       justify-content: space-around;
       padding-left: 50px;
@@ -497,7 +509,6 @@ details[style] {
   }
 
 @media screen and (min-width: 950px){
-
 
   #container ul {
         display: flex;
@@ -524,6 +535,10 @@ details[style] {
 
   .staffcard {
       width: 18%;
+  }
+
+  .membercard {
+    width: 18%;
   }
 
   .staff-container{

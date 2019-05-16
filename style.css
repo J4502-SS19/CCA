@@ -235,6 +235,18 @@ a{
   font-size: 30px;
   }
 
+  .joinrenew1{
+    border: none;
+    outline: 0;
+    padding: 8px;
+    background-color: #a81919;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    font-size: 30px;
+    display: inline-flex;
+    }
+
  .column {
   /* float: left; */
   display: flex;
@@ -547,6 +559,10 @@ details[style] {
       }
 
       .joinrenew{
+        display: inline-flex;
+      }
+
+      .joinrenew1{
         display: inline-flex;
       }
 }

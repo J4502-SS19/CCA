@@ -57,10 +57,10 @@ div {
 }
 
 #container {
+  display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-end;
   align-content: center;
-  width: 100%;
 }
 
 #nav {
@@ -497,7 +497,6 @@ details[style] {
   }
 
 @media screen and (min-width: 950px){
-
 
   #container ul {
         display: flex;

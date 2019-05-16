@@ -78,7 +78,7 @@ div {
   border-bottom: 2px solid black;
   color: black;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 #nav a:hover, #nav a:active {
@@ -92,6 +92,7 @@ div {
     font-size: 3em;
     text-decoration: none;
     color: black;
+    align-items: flex-start;
 }
 
 #Logo {
@@ -368,7 +369,7 @@ details[style] {
 }
 
 .prev:hover, .next:hover {
-  color: #a81919;
+  color: #be7171;
 }
 
 .text a{
@@ -381,7 +382,7 @@ details[style] {
   position: absolute;
   width: 100%;
   text-align: center;
-  border-bottom: 3px solid #a81919;
+  border-bottom: 3px solid #be7171;
 }
 
 .title {
@@ -408,7 +409,7 @@ details[style] {
 }
 
 .active, .dot:hover {
-  background-color: #a81919;
+  background-color: #be7171;
 }
 
 .fade {

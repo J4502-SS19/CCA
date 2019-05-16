@@ -55,6 +55,7 @@ div {
   justify-content: flex-end;
 }
 
+
 #nav {
   display: none;
   padding: 0;
@@ -77,6 +78,7 @@ div {
   border-bottom: 2px solid black;
   color: black;
   text-decoration: none;
+  font-size: 12px;
 }
 
 #nav a:hover, #nav a:active {
@@ -501,12 +503,33 @@ details[style] {
       padding-top: 0px;
   }
 
-@media screen and (min-width: 950px){
+  #container ul {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+  .menu-trigger {
+        display: none;
+      }
+
+      #Logo {
+          order: 1;
+          max-width: 300px;
+      }
+
+      #container {
+          order: 2;
+      }
 
       .joinrenew{
         display: inline-flex;
         order: 3;
       }
+}
+
+@media screen and (min-width: 950px){
+
+
 
   .staffcard {
       width: 18%;
@@ -539,22 +562,4 @@ details[style] {
 .jobbox {
   grid-area: d;
 }
-
-#container ul {
-      display: flex;
-      justify-content: flex-end;
-    }
-
-.menu-trigger {
-      display: none;
-    }
-
-    #Logo {
-        order: 1;
-        max-width: 300px;
-    }
-
-    #container {
-        order: 2;
-    }
 }

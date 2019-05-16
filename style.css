@@ -104,6 +104,7 @@ div {
     display: inline-block;
     margin-top: 15px;
     order: 2;
+    max-width: 300px;
   }
 
 header {
@@ -456,7 +457,7 @@ details[style] {
     }
 
     #Logo {
-      width: 300px;
+      max-width: 300px;
     }
 
     article {
@@ -521,7 +522,7 @@ details[style] {
 
       #Logo {
           order: 1;
-          width: 300px;
+          max-width: 300px;
       }
 
       #container {
@@ -579,7 +580,7 @@ details[style] {
 
     #Logo {
         order: 1;
-        width: 300px;
+        max-width: 300px;
     }
 
     #container {

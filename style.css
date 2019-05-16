@@ -50,10 +50,10 @@ div {
   max-width: 100%;
 }
 
-#container {
+/* #container {
   display: flex;
-  justify-content: flex-end;
-}
+  justify-content: flex-start;
+} */
 
 
 #nav {
@@ -96,11 +96,14 @@ div {
 }
 
 #Logo {
-    display: inline-block;
     margin-top: 15px;
     order: 2;
     max-width: 300px;
   }
+
+#container {
+  order: 1;
+}
 
 header {
     display: flex;
@@ -444,6 +447,10 @@ details[style] {
 
     .membercard {
       width: 45%;
+    }
+
+    #container {
+      order: 1;
     }
 
     #Logo {
